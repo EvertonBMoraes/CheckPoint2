@@ -1,11 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Oxygen&family=Roboto&display=swap");
+
+/* fontes do Google: 'Caveat' , 'Oxygen' , 'Roboto' */
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    --cor-principal: #062f5b;
-    --cor-secundario: #679dd6;
-    --cor-texto: #5d596b;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  --cor-principal: #062f5b;
+  --cor-secundario: #679dd6;
+  --cor-texto: #5d596b;
 }
-html{
-    font-size: 10px;
+
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #2a475e;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #171a21;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px 15px 61px;
+}
+
+header img {
+  width: 167px;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: 1.8rem;
+  gap: 24px;
+}
+
+nav ul a:first-child {
+  color: red;
+}
+
+.banner {
+  background-color: #1b2839;
+  animation: fundo_animado 25s infinite ease-in-out;
+  width: 100%;
+  height: 1023px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+}
+
+.banner h1 {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: red;
+  font-size: 7.2rem;
+}
+
+.banner p {
+  background-color: rgba(0, 0, 0, 0.25);
+  font-size: 2.4rem;
+}
+
+.banner__botao {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 322px;
+  height: 71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+footer {
+  background-color: #171a21;
+}
+
+@keyframes fundo_animado {
+  0% {
+    background-position: 70% 50%;
+    background-image: url(../img/street.jpg);
+    background-repeat: no-repeat;
+  }
+  15% {
+    background-position: 50% 100%;
+    background-image: url(../img/montagem.jpg);
+    background-repeat: no-repeat;
+  }
+  30% {
+    background-position: 100% 50%;
+    background-image: url(../img/dark.jpg);
+    background-repeat: no-repeat;
+  }
+  45% {
+    background-position: 50% 100%;
+    background-image: url(../img/eldenring.jpg);
+    background-repeat: no-repeat;
+  }
+  60% {
+    background-position: 100% 50%;
+    background-image: url(../img/granturismo7.jpg);
+    background-repeat: no-repeat;
+  }
+  75% {
+    background-position: 50% 100%;
+    background-image: url(../img/left4dead2.jpg);
+    background-repeat: no-repeat;
+  }
+  90% {
+    background-position: 100% 50%;
+    background-image: url(../img/watchdogs2.jpg);
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-position: 70%;
+    background-image: url(../img/street.jpg);
+    background-repeat: no-repeat;
+  }
 }
