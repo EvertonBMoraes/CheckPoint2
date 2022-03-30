@@ -34,6 +34,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 80px 15px 61px;
+  position: fixed;
 }
 
 header img {
@@ -60,6 +61,7 @@ nav ul a:first-child {
   animation: fundo_animado 25s infinite ease-in-out;
   color: #ffffff;
   visibility: 80vh;
+  border: 1px solid lime;
 }
 
 .banner__sombra {
@@ -91,7 +93,7 @@ nav ul a:first-child {
   align-items: center;
   font-size: 2.4rem;
   background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid red;
+  border: 1px solid lime;
 }
 
 footer {
