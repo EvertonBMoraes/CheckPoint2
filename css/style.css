@@ -16,6 +16,7 @@ html {
   font-size: 10px;
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #2a475e;
 }
@@ -269,9 +270,11 @@ footer {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.2);
   }
+
   100% {
     transform: scale(1);
   }
@@ -283,36 +286,43 @@ footer {
     background-image: url(../img/street.jpg);
     background-repeat: no-repeat;
   }
+
   15% {
     background-position: 50% 100%;
     background-image: url(../img/montagem.jpg);
     background-repeat: no-repeat;
   }
+
   30% {
     background-position: 100% 50%;
     background-image: url(../img/dark.jpg);
     background-repeat: no-repeat;
   }
+
   45% {
     background-position: 50% 100%;
     background-image: url(../img/eldenring.jpg);
     background-repeat: no-repeat;
   }
+
   60% {
     background-position: 100% 50%;
     background-image: url(../img/granturismo7.jpg);
     background-repeat: no-repeat;
   }
+
   75% {
     background-position: 50% 100%;
     background-image: url(../img/left4dead2.jpg);
     background-repeat: no-repeat;
   }
+
   90% {
     background-position: 100% 50%;
     background-image: url(../img/watchdogs2.jpg);
     background-repeat: no-repeat;
   }
+
   100% {
     background-position: 70%;
     background-image: url(../img/street.jpg);
