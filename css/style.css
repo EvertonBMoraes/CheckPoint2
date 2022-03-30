@@ -180,6 +180,7 @@ nav ul a:first-child {
 }
 
 .games__card img:hover {
+  border-radius: 10px;
   transform: scale(1.3);
 }
 
