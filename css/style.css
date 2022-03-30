@@ -202,6 +202,48 @@ nav ul a:first-child {
 
 footer {
   background-color: #171a21;
+  color: white;
+  width: 100%;
+  height: 364px;
+  display: block;
+  justify-content: space-between; 
+  
+}
+
+.aluno {
+  display: block;
+  justify-content: space-between;
+}
+
+.criadores {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-size: 2.3rem;
+  justify-content: space-between;
+}
+
+.criadores h5{
+  font-size: 2.4rem;
+  display: block;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.criadores p{
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.redes a img{
+  width: 50px;
+  height: 50x;
+}
+
+.redes h4{
+  font-size: 2.4rem;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @keyframes fundo_animado {
