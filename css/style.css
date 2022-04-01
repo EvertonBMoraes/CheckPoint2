@@ -226,19 +226,38 @@ footer {
   color: white;
   width: 100%;
   height: 364px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 90px;
 }
 
 .criadores {
   font-size: 2.3rem;
-  width: 80%;
+  width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
+}
+
+.aluno1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.aluno2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.aluno3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-end;
+  padding: 5px;
 }
 
 .criadores h5 {
@@ -249,16 +268,22 @@ footer {
 .criadores p {
   font-size: 1.4rem;
   color: rgba(255, 255, 255, 0.75);
+  padding: 3px;
 }
 
 .redes a img {
   width: 50px;
   height: 50x;
+  padding: 3px;
 }
 
-.redes h4 {
+.footer2 {
   font-size: 2.4rem;
   color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
 }
 
 
