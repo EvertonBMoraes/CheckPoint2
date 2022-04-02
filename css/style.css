@@ -295,7 +295,6 @@ footer h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
 }
 
 @keyframes botao_animado {
