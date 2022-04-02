@@ -68,16 +68,16 @@ nav ul li {
   transition-duration: 0.75s;
 }
 
+nav ul li:first-child {
+  color: #e51b3e;
+}
+
 nav ul li:hover {
   transform: scale(1.2);
 }
 
 nav ul li a:hover {
   transform: scale(1.2);
-  color: #e51b3e;
-}
-
-#menu_home {
   color: #e51b3e;
 }
 
