@@ -1,0 +1,83 @@
+.banner__detalhes {
+  background-image: url(../img/dark-souls_img.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  visibility: 80vh;
+}
+h1 {
+  font-size: 2.7rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: start;
+  padding: 15px;
+}
+p {
+  font-size: 2rem;
+}
+.nota {
+  font-size: 2rem;
+  display: flex;
+}
+.descricao {
+  display: flex;
+  border: 2px solid #26445c;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  
+}
+.video iframe{
+    border-radius: 2%;
+}
+.info{
+    flex-direction: column;
+    color: black;
+    width: 45%;
+    border: 1px solid #2a475e;
+    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.nota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.numero{
+    background-color: rgb(203, 206, 9);
+    padding: 0px 5px 0px 5px;
+}
+.requesitos{
+    display: flex;
+    flex-direction: column;
+  border: 2px solid #26445c;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  }
+  h2{
+      color: #ffffff;
+  }
+  .card__requesitos{
+      display: flex;
+      flex-direction: row;
+      font-size: 1.5rem;
+      color: grey;
+      gap: 50px;
+  }
+  .card__requesitos div{
+      border: 1px solid #2a475e;
+  }
+
+  
