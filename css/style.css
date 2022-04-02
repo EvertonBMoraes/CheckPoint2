@@ -257,6 +257,10 @@ footer {
   align-items: flex-start;
 }
 
+#aluno2 {
+text-align: center;
+}
+
 #aluno3 {
   align-items: flex-end;
   text-align: right;
