@@ -7,9 +7,6 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  --cor-principal: #062f5b;
-  --cor-secundario: #679dd6;
-  --cor-texto: #5d596b;
 }
 
 html {
@@ -22,6 +19,11 @@ body {
 }
 
 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
   text-decoration: none;
   color: #ffffff;
 }
@@ -68,10 +70,14 @@ nav ul li {
 
 nav ul li:hover {
   transform: scale(1.2);
+}
+
+nav ul li a:hover {
+  transform: scale(1.2);
   color: #e51b3e;
 }
 
-nav ul a:first-child {
+#menu_home {
   color: #e51b3e;
 }
 
@@ -227,66 +233,66 @@ footer {
   color: white;
   width: 100%;
   height: 364px;
-  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
 }
 
 .criadores {
-  font-size: 2.3rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
 }
 
-.aluno1 {
+.aluno {
+  width: 30%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px;
+}
+
+#aluno1 {
   align-items: flex-start;
-  padding: 5px;
 }
 
-.aluno2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px;
-}
-
-.aluno3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#aluno3 {
   align-items: flex-end;
-  padding: 5px;
+  text-align: right;
 }
 
-.criadores h5 {
+.aluno h5 {
   font-size: 2.4rem;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
-.criadores p {
+.aluno p {
+  height: 50px;
   font-size: 1.4rem;
   color: rgba(255, 255, 255, 0.75);
-  padding: 3px;
+  margin-bottom: 12px;
 }
 
-.redes a img {
-  width: 50px;
-  height: 50x;
-  padding: 3px;
+.redes {
+  display: flex;
+  gap: 16px;
 }
 
-.footer2 {
+i {
+  font-size: 2.4rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+footer h4 {
   font-size: 2.4rem;
   color: rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px;
+  margin-bottom: 80px;
 }
-
 
 @keyframes botao_animado {
   0% {
