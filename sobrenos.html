@@ -42,7 +42,58 @@
             </nav>
         </header>
         <main>
-           
+           <!-- Início do Modal -->
+           <div
+           class="modal fade"
+           id="staticBackdrop"
+           data-bs-backdrop="static"
+           data-bs-keyboard="false"
+           tabindex="-1"
+           aria-labelledby="staticBackdropLabel"
+           aria-hidden="true"
+       >
+           <div class="modal-dialog modal-dialog-centered">
+               <div class="modal-content">
+                   <div class="d-flex flex-row-reverse bd-highlight">
+                       <button
+                           type="button"
+                           class="btn-close mt-3 me-3"
+                           data-bs-dismiss="modal"
+                           aria-label="Close"
+                       ></button>
+                   </div>
+                   <img class="rounded mx-auto my-4 d-block" src="img/logo.png" alt="logo da Digital House">
+                   <div class="modal-body">
+                       <form>
+                           <div class="mb-3 mx-4">
+                               <label for="email" class="form-label text-muted fs-3">email</label>
+                               <input
+                                   type="email"
+                                   class="form-control text-muted fs-4"
+                                   id="email"
+                                   placeholder="Digite seu email"
+                                   required
+                               >
+                           </div>
+                           <div class="mb-3 mx-4">
+                               <label for="senha" class="form-label text-muted fs-3">senha</label>
+                               <input
+                                   type="password"
+                                   class="form-control text-muted fs-4"
+                                   id="senha"
+                                   placeholder="Digite sua senha"
+                                   required
+                               >
+                           </div>
+                           <div class="d-grid gap-2 mx-4 mt-5 mb-3">
+                               <button type="submit" class="btn btn-success fs-3 btn-lg" type="button">Entrar</button>
+                           </div>
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- Final do Modal -->
 
 
 
