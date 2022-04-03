@@ -404,3 +404,15 @@ footer h4 {
     background-repeat: no-repeat;
   }
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 428px) {
+  html {
+    font-size: 7px;
+  }
+}
