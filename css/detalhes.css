@@ -5,6 +5,7 @@
   height: 80vh;
   visibility: 80vh;
 }
+
 h1 {
   font-size: 2.7rem;
   color: #ffffff;
@@ -40,7 +41,8 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 315px;
-  font-size: 1.85rem;
+  font-size: 1.8rem;
+  padding: 5px;
 }
 .nota {
   display: flex;
@@ -58,7 +60,7 @@ h1 {
   justify-content: center;
   align-items: center;
   padding-top: 20px;}
-  
+
 .requesitos {
   display: flex;
   flex-direction: column;
@@ -86,4 +88,5 @@ h2 {
 .card__requesitos div {
   border: 1px solid #2a475e;
   border-radius: 2%;
+  padding: 5px;
 }
