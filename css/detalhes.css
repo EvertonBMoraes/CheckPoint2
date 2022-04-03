@@ -5,6 +5,18 @@
   height: 80vh;
   visibility: 80vh;
 }
+
+.banner__detalhessombra{
+  width: 100%;
+  height: 100%;
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
+}
+
+.banner__detalhessombra:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 h1 {
   font-size: 2.7rem;
   color: #ffffff;
@@ -53,12 +65,13 @@ h1 {
   background-color: rgb(203, 206, 9);
   padding: 0px 5px 0px 5px;
 }
-.gif{
+.gif {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;}
-  
+  padding-top: 20px;
+}
+
 .requesitos {
   display: flex;
   flex-direction: column;
@@ -80,8 +93,7 @@ h2 {
   font-size: 1.5rem;
   color: grey;
   gap: 50px;
- padding: 20px;
-
+  padding: 20px;
 }
 .card__requesitos div {
   border: 1px solid #2a475e;
