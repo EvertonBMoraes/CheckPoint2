@@ -446,11 +446,24 @@ footer h4 {
 
   .games__card {
     width: 320px;
-    height: 580px;
+    height: 560px;
   }
 
   .games__card img {
     height: 180px;
+  }
+
+  .games__card img:hover {
+    transform: scale(1.1);
+  }
+  
+  .games__card h3 {
+    padding: 26px 26px 13px 26px;
+  }
+  
+  .games__card p {
+    height: 230px;
+    padding: 0px 26px 0px 26px;
   }
 
   .games__botao-abrir {
@@ -489,6 +502,7 @@ footer h4 {
     align-items: flex-start;
     text-align: left;
   }
+
   .aluno h5 {
     margin-bottom: 0px;
   }
