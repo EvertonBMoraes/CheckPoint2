@@ -128,6 +128,18 @@ nav ul li a:hover {
   height: 20vh;
 }
 
+.modal-content {
+  background-color: rgba(23, 26, 33, 0.99);
+  box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+}
+
+.modal-content img {
+  width: 167px;
+  height: 50px;
+  opacity: 0.9;
+}
+
 .banner {
   width: 100%;
   height: 80vh;
@@ -149,6 +161,10 @@ nav ul li a:hover {
   align-items: center;
 }
 
+.banner__texto {
+  padding: 70px;
+}
+
 .banner h1 {
   color: #e51b3e;
   font-size: 7.2rem;
@@ -161,6 +177,7 @@ nav ul li a:hover {
 
 .banner p {
   font-size: 2.4rem;
+  text-align: justify;
 }
 
 .banner__botao {
@@ -271,20 +288,22 @@ nav ul li a:hover {
 }
 
 footer {
+  width: 100%;
   background-color: #171a21;
   color: white;
-  width: 100%;
   height: 364px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  padding: 40px;
 }
 
 .criadores {
   width: 100%;
+  height: 80%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -413,11 +432,69 @@ footer h4 {
 
 @media (max-width: 428px) {
   html {
-    font-size: 7px;
-    header img {
-      width: 167px;
-      height: 50px;
-      opacity: 0.9;
-    }
+    font-size: 8px;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  .games__card {
+    width: 320px;
+    height: 580px;
+  }
+
+  .games__card img {
+    height: 180px;
+  }
+
+  .games__botao-abrir {
+    width: 276.46px;
+  }
+
+  footer {
+    height: 523px;
+    justify-content: space-evenly;
+  }
+
+  .criadores {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .aluno {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  #aluno1 {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  #aluno2 {
+    text-align: left;
+  }
+
+  #aluno3 {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .aluno h5 {
+    margin-bottom: 0px;
+  }
+
+  .aluno p {
+    margin-bottom: 0px;
+    min-height: 0px;
   }
 }
