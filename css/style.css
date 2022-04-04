@@ -414,5 +414,10 @@ footer h4 {
 @media (max-width: 428px) {
   html {
     font-size: 7px;
+    header img {
+      width: 167px;
+      height: 50px;
+      opacity: 0.9;
+    }
   }
 }
