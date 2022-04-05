@@ -375,7 +375,7 @@ footer h4 {
   }
 
   50% {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   100% {
@@ -624,6 +624,10 @@ footer h4 {
 
   .games__botao-abrir {
     width: 276.46px;
+  }
+
+  .games__botao-abrir:hover {
+    transform: scale(1.01);
   }
 
   footer {
