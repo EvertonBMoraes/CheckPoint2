@@ -447,6 +447,14 @@ footer h4 {
   .games__containercard {
     justify-content: space-around;
   }
+
+  .banner__texto {
+    padding: 10px;
+  }
+
+  .banner__botao {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -456,6 +464,7 @@ footer h4 {
 
   header {
     flex-direction: column;
+    justify-content: space-evenly;
     padding: 16px;
   }
 
