@@ -224,6 +224,12 @@ nav ul li a:hover {
   gap: 35px;
 }
 
+.games__sobrecard {
+  width: 30%;
+  justify-self: center;
+  align-self: center;
+}
+
 .games__card {
   width: 407px;
   height: 645px;
@@ -428,6 +434,15 @@ footer h4 {
   html {
     font-size: 9px;
   }
+
+  .games__sobrecard{
+    width: 45%;
+  }
+
+  .games__card {
+    width: 320px;
+    height: 560px;
+  }
 }
 
 @media (max-width: 428px) {
@@ -444,6 +459,14 @@ footer h4 {
     gap: 20px;
   }
 
+  .banner__texto {
+    padding: 10px;
+  }
+
+  .games__sobrecard{
+    width: 80%;
+  }
+
   .games__card {
     width: 320px;
     height: 560px;
@@ -456,11 +479,11 @@ footer h4 {
   .games__card img:hover {
     transform: scale(1.1);
   }
-  
+
   .games__card h3 {
     padding: 26px 26px 13px 26px;
   }
-  
+
   .games__card p {
     height: 230px;
     padding: 0px 26px 0px 26px;
