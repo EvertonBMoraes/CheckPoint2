@@ -30,6 +30,7 @@ a {
 h1 {
   margin-bottom: 0;
 }
+
 h2 {
   margin-bottom: 0;
 }
@@ -57,6 +58,7 @@ p {
 ul {
   margin-bottom: 0;
 }
+
 /* bootstrap deixa a margin-bottom 1rem, isto é uma correção para não estrgar o layout */
 
 a:hover {
@@ -228,7 +230,7 @@ nav ul li a:hover {
   width: 30%;
   display: flex;
   justify-content: center;
- align-items: center;
+  align-items: center;
 }
 
 .games__card {
@@ -431,20 +433,20 @@ footer h4 {
   }
 }
 
-@media (max-width: 1366px){
-  .games__sobrecard{
+@media (max-width: 1366px) {
+  .games__sobrecard {
     width: 40%;
   }
 }
 
-@media (max-width: 1280px){
-  .games__sobrecard{
+@media (max-width: 1280px) {
+  .games__sobrecard {
     width: 80%;
   }
+
   .games__containercard {
     justify-content: space-around;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -477,7 +479,7 @@ footer h4 {
     justify-content: space-around;
   }
 
-  .games__sobrecard{
+  .games__sobrecard {
     width: 80%;
   }
 
@@ -564,7 +566,7 @@ footer h4 {
     width: 150px;
     height: 40px;
   }
-  
+
   nav ul {
     gap: 10px;
   }
@@ -585,7 +587,7 @@ footer h4 {
     justify-content: space-around;
   }
 
-  .games__sobrecard{
+  .games__sobrecard {
     width: 80%;
   }
 
