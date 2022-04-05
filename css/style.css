@@ -226,8 +226,9 @@ nav ul li a:hover {
 
 .games__sobrecard {
   width: 30%;
-  justify-self: center;
-  align-self: center;
+  display: flex;
+  justify-content: center;
+ align-items: center;
 }
 
 .games__card {
@@ -260,13 +261,13 @@ nav ul li a:hover {
 .games__card h3 {
   font-size: 2.4rem;
   align-self: flex-start;
-  padding: 26.73px 32px 13.36px 32px;
+  padding: 26.73px 15px 13.36px 15px;
   color: #ffffff;
 }
 
 .games__card p {
   font-size: 1.6rem;
-  padding: 0px 32px 13.36px 32px;
+  padding: 0px 15px 13.36px 15px;
   text-align: justify;
   height: 250px;
   color: #ffffff;
@@ -430,24 +431,25 @@ footer h4 {
   }
 }
 
-@media (max-width: 768px) {
-  html {
-    font-size: 9px;
-  }
-
+@media (max-width: 1366px){
   .games__sobrecard{
-    width: 45%;
-  }
-
-  .games__card {
-    width: 320px;
-    height: 560px;
+    width: 40%;
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 1280px){
+  .games__sobrecard{
+    width: 80%;
+  }
+  .games__containercard {
+    justify-content: space-around;
+  }
+
+}
+
+@media (max-width: 768px) {
   html {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   header {
@@ -461,6 +463,119 @@ footer h4 {
 
   .banner__texto {
     padding: 10px;
+  }
+
+  .games {
+    margin: 10px;
+  }
+
+  .games__containercard {
+    justify-content: space-around;
+  }
+
+  .games__sobrecard{
+    width: 80%;
+  }
+
+  .games__card {
+    width: 320px;
+    height: 600px;
+  }
+
+  .games__card img {
+    height: 180px;
+  }
+
+  .games__card img:hover {
+    transform: scale(1.1);
+  }
+
+  .games__card h3 {
+    padding: 26px 26px 13px 26px;
+  }
+
+  .games__card p {
+    height: 260px;
+    padding: 0px 26px 0px 26px;
+  }
+
+  .games__botao-abrir {
+    width: 276.46px;
+  }
+
+  footer {
+    height: 523px;
+    justify-content: space-evenly;
+  }
+
+  .criadores {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .aluno {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  #aluno1 {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  #aluno2 {
+    text-align: left;
+  }
+
+  #aluno3 {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .aluno h5 {
+    margin-bottom: 0px;
+  }
+
+  .aluno p {
+    margin-bottom: 0px;
+    min-height: 0px;
+  }
+}
+
+@media (max-width: 428px) {
+  html {
+    font-size: 8px;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  header img {
+    width: 150px;
+    height: 40px;
+  }
+  
+
+  nav ul {
+    gap: 20px;
+  }
+
+  .banner__texto {
+    padding: 10px;
+  }
+
+  .games {
+    margin: 10px;
+  }
+
+  .games__containercard {
+    justify-content: space-around;
   }
 
   .games__sobrecard{
