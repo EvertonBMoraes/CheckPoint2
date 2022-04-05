@@ -10,11 +10,14 @@
   padding: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   --cor-fundo-body: #2a475e;
-  --cor-fundo-header-footer: rgba(23, 26, 33, 1);
+  --cor-fundo-header-footer: rgb(23, 26, 33);
+  --cor-fundo-cards: #171a21;
   --cor-principal: #ffffff;
+  --cor-secundaria: grey;
   --cor-destaque: #e51b3e;
   --cor-linha-banner: lime;
   --cor-botao-abrir: limegreen;
+  --cor-nota-media: rgb(203, 206, 9);
   --texto-semi-transparente: rgba(255, 255, 255, 0.75);
 }
 
@@ -32,7 +35,7 @@ a {
   color: var(--cor-principal);
 }
 
-/* bootstrap deixa a margin-bottom 1rem, isto é uma correção para não estrgar o layout */
+/* bootstrap deixa a margin-bottom com 1rem, isto é uma correção para não estragar o layout */
 
 h1 {
   margin-bottom: 0;
@@ -66,7 +69,7 @@ ul {
   margin-bottom: 0;
 }
 
-/* bootstrap deixa a margin-bottom 1rem, isto é uma correção para não estrgar o layout */
+/* bootstrap deixa a margin-bottom com 1rem, isto é uma correção para não estragar o layout */
 
 a:hover {
   text-decoration: none;
@@ -251,7 +254,7 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #171a21;
+  background-color: var(--cor-fundo-cards);
   border-radius: 10px;
   box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
 }

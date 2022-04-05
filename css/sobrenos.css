@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-
 }
 
 .quemsomos {
@@ -19,8 +18,8 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #171a21;
-  color: white;
+  background-color: var(--cor-fundo-cards);
+  color: var(--cor-principal);
   border-radius: 20px;
   box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
 }
@@ -28,7 +27,7 @@
 .quemsomos h2 {
   font-size: 4rem;
   font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
-  color: #e51b3e;
+  color: var(--cor-destaque);
 }
 
 .quemsomos p {
@@ -48,12 +47,11 @@
   margin: 100px;
 }
 
-
 .frase1 {
   width: 500px;
   height: 400px;
-  background-color: #171a21;
-  color: white;
+  background-color: var(--cor-fundo-cards);
+  color: var(--cor-principal);
   display: flex;
   align-self: flex-start;
   align-items: center;
@@ -65,12 +63,11 @@
   box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
 }
 
-
 .frase2 {
   width: 500px;
   height: 400px;
-  background-color: #171a21;
-  color: white;
+  background-color: var(--cor-fundo-cards);
+  color: var(--cor-principal);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,8 +81,8 @@
 .frase3 {
   width: 500px;
   height: 400px;
-  background-color: #171a21;
-  color: white;
+  background-color: var(--cor-fundo-cards);
+  color: var(--cor-principal);
   display: flex;
   align-self: flex-end;
   align-items: center;
@@ -97,20 +94,14 @@
   box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
 }
 
+@media (max-width: 1366px) {
+}
 
-@media (max-width: 1366px) {}
+@media (max-width: 1280px) {
+}
 
-
-
-
-
-@media (max-width:1280px) {}
-
-
-
-@media (max-width: 768px) {}
-
+@media (max-width: 768px) {
+}
 
 @media (max-width: 428px) {
-
-  .frases {}
+}
