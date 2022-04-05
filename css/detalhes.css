@@ -20,11 +20,12 @@
 }
 
 h1 {
-  font-size: 2.7rem;
+  font-size: 4rem;
   color: #ffffff;
   display: flex;
   justify-content: start;
   padding: 15px;
+  margin: 30px;
 }
 
 .nota {
@@ -84,7 +85,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .requesitos {
@@ -122,6 +123,10 @@ h2 {
 @media (max-width: 1280px) {
   .banner__detalhes {
     background-size: cover;
+  }
+
+  h1 {
+    justify-content: center;
   }
 
   .descricao {
