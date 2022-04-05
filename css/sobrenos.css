@@ -1,13 +1,17 @@
 .inicioquemsomos {
-  width: 30%;
+  width: 100%;
+  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 30px;
+
 }
 
 .quemsomos {
-  width: 70%;
+  width: 60%;
+  height: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,6 +47,7 @@
   margin: 100px;
 }
 
+
 .frase1 {
   width: 500px;
   height: 400px;
@@ -58,6 +63,7 @@
   border-radius: 20px;
   box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
 }
+
 
 .frase2 {
   width: 500px;
