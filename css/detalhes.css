@@ -117,33 +117,7 @@ h2 {
   padding: 5px;
 }
 
-@media (max-width: 768px) {
-  .banner__detalhes {
-    background-size: cover;
-  }
-
-  .descricao {
-    flex-direction: column;
-    padding: 0px;
-  }
-
-  .video {
-    width: 80%;
-    padding: 20px 0px 20px 0px;
-  }
-
-  .video iframe {
-    width: 100%;
-    height: 350px;
-  }
-
-  .info {
-    height: fit-content;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 428px) {
+@media (max-width: 1280px) {
   .banner__detalhes {
     background-size: cover;
   }
