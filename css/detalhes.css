@@ -164,7 +164,22 @@ h2 {
 }
 
 @media (max-width: 768px) {
+  .video iframe {
+    width: 100%;
+    height: 200px;
+  }
   .video {
     width: 400px;
   }
 }
+
+@media (max-width: 428px) {
+  .video iframe {
+    width: 100%;
+    height: 200px;
+  }
+  .video {
+    width:80%;
+  }
+}
+
